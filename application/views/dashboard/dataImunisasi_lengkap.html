@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description"
+        content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <!-- Twitter meta-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@pratikborsadiya">
+    <meta property="twitter:creator" content="@pratikborsadiya">
+    <!-- Open Graph Meta-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vali Admin">
+    <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+    <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
+    <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+    <meta property="og:description"
+        content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <title>Blank Page - Vali Admin</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="app sidebar-mini">
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="index.html">Vali</a>
+        <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
+            aria-label="Hide Sidebar"></a>
+        <!-- Navbar Right Menu-->
+        <ul class="app-nav">
+            <!-- User Menu-->
+            <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown"
+                    aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
+                <ul class="dropdown-menu settings-menu dropdown-menu-right">
+                    <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
+                    <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+                    <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/48.jpg" alt="User Image">
+            <div>
+                <p class="app-sidebar__user-name">John Doe</p>
+                <p class="app-sidebar__user-designation">Frontend Developer</p>
+            </div>
+        </div>
+        <ul class="app-menu">
+            <li><a class="app-menu__item" href="dashboard.html"><i class="app-menu__icon fa fa-dashboard"></i><span
+                        class="app-menu__label">Dashboard</span></a></li>
+            <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
+                        class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">Data Imunisasi</span><i
+                        class="treeview-indicator fa fa-angle-right"></i></a>
+                <ul class="treeview-menu">
+                    <li><a class="treeview-item" href="tambahData_imunisasi.html"></i> Tambah Data Imunisasi</a></li>
+                    <li><a class="treeview-item" href="https://fontawesome.com/v4.7.0/icons/" rel="noopener">Pelayanan
+                            Imunisasi
+                        </a></li>
+                </ul>
+            </li>
+            <li><a class="app-menu__item" href="charts.html"><i class="app-menu__icon fa fa-pie-chart"></i><span
+                        class="app-menu__label">Charts</span></a></li>
+            <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
+                        class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Forms</span><i
+                        class="treeview-indicator fa fa-angle-right"></i></a>
+                <ul class="treeview-menu">
+                    <li><a class="treeview-item" href="form-components.html"><i class="icon fa fa-circle-o"></i> Form
+                            Components</a></li>
+                    <li><a class="treeview-item" href="form-custom.html"><i class="icon fa fa-circle-o"></i> Custom
+                            Components</a>
+                    </li>
+                    <li><a class="treeview-item" href="form-samples.html"><i class="icon fa fa-circle-o"></i> Form
+                            Samples</a>
+                    </li>
+                    <li><a class="treeview-item" href="form-notifications.html"><i class="icon fa fa-circle-o"></i> Form
+                            Notifications</a></li>
+                </ul>
+            </li>
+            <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
+                        class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Tables</span><i
+                        class="treeview-indicator fa fa-angle-right"></i></a>
+                <ul class="treeview-menu">
+                    <li><a class="treeview-item" href="table-basic.html"><i class="icon fa fa-circle-o"></i> Basic
+                            Tables</a></li>
+                    <li><a class="treeview-item" href="table-data-table.html"><i class="icon fa fa-circle-o"></i> Data
+                            Tables</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview is-expanded"><a class="app-menu__item" href="#" data-toggle="treeview"><i
+                        class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Pages</span><i
+                        class="treeview-indicator fa fa-angle-right"></i></a>
+                <ul class="treeview-menu">
+                    <li><a class="treeview-item active" href="blank-page.html"><i class="icon fa fa-circle-o"></i> Blank
+                            Page</a>
+                    </li>
+                    <li><a class="treeview-item" href="page-login.html"><i class="icon fa fa-circle-o"></i> Login
+                            Page</a></li>
+                    <li><a class="treeview-item" href="page-lockscreen.html"><i class="icon fa fa-circle-o"></i>
+                            Lockscreen
+                            Page</a></li>
+                    <li><a class="treeview-item" href="page-user.html"><i class="icon fa fa-circle-o"></i> User Page</a>
+                    </li>
+                    <li><a class="treeview-item" href="page-invoice.html"><i class="icon fa fa-circle-o"></i> Invoice
+                            Page</a>
+                    </li>
+                    <li><a class="treeview-item" href="page-calendar.html"><i class="icon fa fa-circle-o"></i> Calendar
+                            Page</a>
+                    </li>
+                    <li><a class="treeview-item" href="page-mailbox.html"><i class="icon fa fa-circle-o"></i>
+                            Mailbox</a></li>
+                    <li><a class="treeview-item" href="page-error.html"><i class="icon fa fa-circle-o"></i> Error
+                            Page</a></li>
+                </ul>
+            </li>
+            <li><a class="app-menu__item" href="docs.html"><i class="app-menu__icon fa fa-user"></i><span
+                        class="app-menu__label">Admin</span></a></li>
+        </ul>
+    </aside>
+    <main class="app-content">
+        <div class="app-title">
+            <div>
+                <h1><i class="fa fa-th-list"></i> Data Table</h1>
+                <p>Table to display analytical data effectively</p>
+            </div>
+            <ul class="app-breadcrumb breadcrumb side">
+                <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
+                <li class="breadcrumb-item">Tables</li>
+                <li class="breadcrumb-item active"><a href="#">Data Table</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tile">
+                    <div class="row ">
+                        <div class="col">
+                            <h4 class="m-0 font-weight-bold text-primary">
+                                Data Imunisasi
+                            </h4>
+                        </div>
+                        <div class="col-auto">
+                            <a href="" class="btn btn-sm btn-primary btn-icon-split">
+                                <span class="icon">
+                                    <i class="fa fa-plus"></i>
+                                </span>
+                                <span class="text">
+                                    Tambah Data Imunisasi
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="table-responsive mt-3">
+                        <table class="table table-striped" id="sampleTable">
+                            <thead>
+                                <tr align="center">
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                    <th>Office</th>
+                                    <th>Age</th>
+                                    <th>Start date</th>
+                                    <th>Salary</th>
+                                    <th>Opsi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr align="center">
+                                    <td>Yuri Berry</td>
+                                    <td>Chief Marketing Officer (CMO)</td>
+                                    <td>New York</td>
+                                    <td>40</td>
+                                    <td>2009/06/25</td>
+                                    <td>$675,000</td>
+                                    <td>
+                                        <a href="" class="btn btn-circle btn-warning btn-sm"> <i
+                                                class="fa fa-edit"></i></a>
+                                        <a href="" onclick="return confirm('Yakin ingin hapus?');"
+                                            class="btn btn-circle btn-danger btn-sm"><i class="fa fa-trash"></i></a>
+                                        <a href="#" type="button" data-toggle="modal" data-target=".bd-example-modal-lg"
+                                            class="btn btn-circle btn-primary btn-sm"> <i class="fa fa-eye"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content ">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-6 profile">
+                        <div class="title pt-3">
+                            <h4 class="text-primary text-center">Profile</h4>
+
+                            <div class="row pl-3">
+                                <div class="col-11">
+                                    <div class="form-group">
+                                        <label class="col-form-label" for="inputDefault">Nama</label>
+                                        <input readonly class="form-control" id="inputDefault" type="text"
+                                            value="Nama Anak">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pl-3">
+                                <div class="col-11">
+                                    <div class="form-group">
+                                        <label for="" class="col-form-label" for="inputDefault">Jenis
+                                            Kelamin</label>
+                                        <input readonly class="form-control" id="inputDefault" type="text"
+                                            value="Jenis Kelamin">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pl-3">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label class="col-form-label" for="inputDefault">Tempat
+                                                    Lahir</label>
+                                                <input readonly class="form-control" id="inputDefault" type="text"
+                                                    value="Tempat Lahir">
+                                            </div>
+                                        </div>
+                                        <div class="col-5 pl-0">
+                                            <label class="col-form-label" for="inputDefault">Tanggal
+                                                Lahir</label>
+                                            <div class="form-group">
+                                                <input readonly class="form-control" id="inputDefault" type="date">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pl-3">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <label class="col-form-label" for="inputDefault">Nama
+                                                    Ibu</label>
+                                                <input readonly class="form-control" id="inputDefault" type="text"
+                                                    value="Nama Ibu">
+                                            </div>
+                                        </div>
+                                        <div class="col-5 pl-0">
+                                            <label class="col-form-label" for="inputDefault">Nama
+                                                Bapak</label>
+                                            <div class="form-group">
+                                                <input readonly class="form-control" id="inputDefault" type="date"
+                                                    value="Nama Bapak">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 informasi pelayanan ">
+                        <div class="title pt-3">
+                            <h4 class="text-primary text-center">Informasi Pelayanan</h4>
+                        </div>
+                        <div class="row pl-3">
+                            <div class="col-11">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="inputDefault">Usia</label>
+                                    <input readonly class="form-control" id="inputDefault" type="text"
+                                        value="Usia Anak">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pl-3">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="inputDefault">Rekomendasi
+                                        Imunisasi</label>
+                                    <input readonly class="form-control" id="inputDefault" type="text"
+                                        value="Imunisasi A">
+                                </div>
+                            </div>
+                            <div class="col-5 pl-0">
+                                <div class="form-group">
+                                    <label class="col-form-label" for="inputDefault">Range Usia</label>
+                                    <input readonly class="form-control" id="inputDefault" type="text" value="1-5">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="col pl-0">
+                                <hr width="85%">
+                            </div>
+                        </div>
+
+                        <div class="row pl-3">
+                            <div class="col-8">
+                                <div class="form-group">
+                                    <label for="exampleSelect1">Jenis Imunisasi</label>
+                                    <select class="form-control" id="exampleSelect1">
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                        <option value="">1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="tile">
+                            <div class="row ">
+                                <div class="col">
+                                    <h4 class="m-0 font-weight-bold text-primary">
+                                        Riwayat Imunisasi
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="table-responsive mt-3">
+                                <table class="table table-striped" id="sampleTable">
+                                    <thead>
+                                        <tr align="center">
+                                            <th width="15">No</th>
+                                            <th>Vaksin</th>
+                                            <th>Tanggal</th>
+                                            <th>Ket</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr align="center">
+                                            <td>1</td>
+                                            <td>BCG & Polio1</td>
+                                            <td>14-09-2020</td>
+                                            <td><span class="badge badge-pill badge-success">Selesai</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Essential javascripts for application to work-->
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <!-- The javascript plugin to display page loading on top-->
+        <script src="assets/js/plugins/pace.min.js"></script>
+        <!-- Page specific javascripts-->
+        <script type="text/javascript" src="assets/js/plugins/chart.js"></script>
+
+</body>
+
+</html>
